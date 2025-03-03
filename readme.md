@@ -1,7 +1,3 @@
-Below is an example of a README.md file for your application:
-
----
-
 # Unique IP Counter
 
 A fast and efficient Go application that counts the number of unique IPv4 addresses from a file using memory-mapped I/O and an atomic bitset. The application is optimized for large files (potentially gigabytes in size) and leverages concurrency to maximize performance.
