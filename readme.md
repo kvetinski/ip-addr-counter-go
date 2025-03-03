@@ -15,18 +15,13 @@ A fast and efficient Go application that counts the number of unique IPv4 addres
 - **Configurable Constants:** All hardcoded values (IP length limits, bucket size, etc.) are defined as constants for easy configuration.
 - **Command‑Line Arguments:** Reads the input filename from the command line.
 
-## Requirements
-
-- [Go](https://golang.org/) 1.16 or later
-- The [mmap-go](https://github.com/edsrzf/mmap-go) library
-
 ## Installation
 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/unique-ip-counter.git
-   cd unique-ip-counter
+   git clone https://github.com/kvetinski/ip-addr-counter-go.git
+   cd ip-addr-counter-go
    ```
 
 2. Install dependencies:
